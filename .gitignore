@@ -808,9 +808,9 @@ Tab:AddTextbox({
 })
 
 Tab:AddButton({
-		Name = "Get key (copy link discord)",
+		Name = "Get key (copy link)",
 		Callback = function()
-		setclipboard("https://discord.gg/Hg8BJSMjEZ")
+		setclipboard("https://rekonise.com/rafan-blox-fruits-7mevf")
 	end
 })
 
