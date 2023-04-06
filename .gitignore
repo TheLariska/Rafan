@@ -811,7 +811,7 @@ Tab:AddButton({
 		Name = "Get key (copy link)",
 		Callback = function()
 		setclipboard("https://rekonise.com/key_for_rafanchik_hub-l5oex")
-	end
+end
 })
 
     Tab:AddButton({
