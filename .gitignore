@@ -1,1 +1,1013 @@
-([[This file was protected with MoonSec V3 by Federal#9999]]):gsub('.+', (function(a) _bujTvQcKBvRE = a; end)); return(function(u,...)local c;local t;local o;local s;local d;local r;local e=24915;local n=0;local l={};while n<433 do n=n+1;while n<0x14a and e%0xd18<0x68c do n=n+1 e=(e*378)%44779 local f=n+e if(e%0x193e)<=0xc9f then e=(e*0x38)%0x3032 while n<0x25e and e%0x1980<0xcc0 do n=n+1 e=(e*57)%6414 local t=n+e if(e%0x180e)<=0xc07 then e=(e*0x35f)%0x9c5a local e=24801 if not l[e]then l[e]=0x1 s=tonumber;end elseif e%2~=0 then e=(e+0x82)%0x4d5b local e=6907 if not l[e]then l[e]=0x1 end else e=(e+0x280)%0x2964 n=n+1 local e=89893 if not l[e]then l[e]=0x1 o={};end end end elseif e%2~=0 then e=(e-0x1e9)%0xb25f while n<0xe2 and e%0xc1e<0x60f do n=n+1 e=(e+368)%14601 local d=n+e if(e%0x2e40)>=0x1720 then e=(e*0xd4)%0x8554 local e=2082 if not l[e]then l[e]=0x1 t=getfenv and getfenv();end elseif e%2~=0 then e=(e*0x11c)%0x8dcf local e=58084 if not l[e]then l[e]=0x1 end else e=(e*0x22d)%0x22be n=n+1 local e=68375 if not l[e]then l[e]=0x1 r=string;end end end else e=(e*0x354)%0x7b8c n=n+1 while n<0x37c and e%0x2962<0x14b1 do n=n+1 e=(e-889)%12689 local f=n+e if(e%0x28d0)<=0x1468 then e=(e*0x36b)%0xb0b5 local e=6599 if not l[e]then l[e]=0x1 c="\4\8\116\111\110\117\109\98\101\114\115\66\99\115\107\119\97\82\0\6\115\116\114\105\110\103\4\99\104\97\114\66\80\118\83\71\86\76\107\0\6\115\116\114\105\110\103\3\115\117\98\113\108\118\103\105\119\102\70\0\6\115\116\114\105\110\103\4\98\121\116\101\75\76\100\113\100\120\106\87\0\5\116\97\98\108\101\6\99\111\110\99\97\116\76\89\116\87\112\119\100\103\0\5\116\97\98\108\101\6\105\110\115\101\114\116\72\89\66\76\79\79\112\77\5";end elseif e%2~=0 then e=(e-0xa5)%0xaa84 local e=38580 if not l[e]then l[e]=0x1 d=function(d)local e=0x01 local function l(n)e=e+n return d:sub(e-n,e-0x01)end while true do local n=l(0x01)if(n=="\5")then break end local e=r.byte(l(0x01))local e=l(e)if n=="\2"then e=o.sBcskwaR(e)elseif n=="\3"then e=e~="\0"elseif n=="\6"then t[e]=function(e,n)return u(8,nil,u,n,e)end elseif n=="\4"then e=t[e]elseif n=="\0"then e=t[e][l(r.byte(l(0x01)))];end local n=l(0x08)o[n]=e end end end else e=(e-0x1d)%0xc03c n=n+1 local e=51439 if not l[e]then l[e]=0x1 t=(not t)and _ENV or t;end end end end end e=(e*122)%30373 end d(c);local n={};for e=0x0,0xff do local l=o.BPvSGVLk(e);n[e]=l;n[l]=e;end local function a(e)return n[e];end local r=(function(f,d)local c,l=0x01,0x10 local n={{},{},{}}local t=-0x01 local e=0x01 local r=f while true do n[0x03][o.qlvgiwfF(d,e,(function()e=c+e return e-0x01 end)())]=(function()t=t+0x01 return t end)()if t==(0x0f)then t=""l=0x000 break end end local t=#d while e<t+0x01 do n[0x02][l]=o.qlvgiwfF(d,e,(function()e=c+e return e-0x01 end)())l=l+0x01 if l%0x02==0x00 then l=0x00 o.HYBLOOpM(n[0x01],(a((((n[0x03][n[0x02][0x00]]or 0x00)*0x10)+(n[0x03][n[0x02][0x01]]or 0x00)+r)%0x100)));r=f+r;end end return o.LYtWpwdg(n[0x01])end);d(r(12,"7mInS/;DE1eWTwNdd1"));d(r(234,"G+W:?!/*r6(z} XU+/:Wz!}}XpX {r+*}(?E/**!rX(W6 }6}:X:+*Wr:UXrUUrZr66 zX ?}Ub!AW::??:X?rrKWU?6}(XWXUa(W/:::U?(! /*r/6! }*r6?+*WX?W?U/(*6W (zz! XX:UXkWW:WX:X?*r 6!rU!}*/U!UUWr:WX!/W*Mr*zezX  }zXWUrM::6?z/*+r:/z:zzX>XUU WWW!?X!+/rrr6*z!(Uz/UWUrWW+z?!U}+!*(6Uz: (XzA? z+r:*:*?///*6rX +*Wrr++++WU!5!X!:/!r:}?}XzX)W(?z6)*:/?:*}6 r (} : W6rzW:??!!U*/r(6*zW}+X6}r+W1z:*? //!6WP:z}q}: (U(L6}I?!!?/}*:rz(66! * W-XWW+(?W:/_rWF(!z?}} :Xze6+z+}::?W/:6zr?(+/r*UK_+rW!?K!}/!r * z/6r}X}(QrzW}(? !!*Wr+6!z} Czz} X}U}W/? ?*IXWr(*z+ (X?6*{XW(?:!6*W/ 6!r/(r :UXD f+}z"));local e=(-25322+(function()local l,n=0,1;(function(e)e(e(e))end)(function(e)if l>161 then return e end l=l+1 n=(n-123)%26501 if(n%414)>=207 then return e else return e(e(e))end return e(e(e and e))end)return n;end)())local h=o.gRSLWyLS or o.AmRxvXjH;local m=(getfenv)or(function()return _ENV end);local j=1;local d=3;local a=4;local t=2;local function y(b,...)local f=r(e,"N=57S3csO:^_/U BS7sO_SB95 s3^S z=/_sBcS3sc:/B^==3BO7_c5c7 cUccUsU/=O3S S7Ss=_s^>55c=^qU3//3BO3U7_/SOOc_BJ?5Ucs_S ==/=S^sU3=/S/SE^:GsS7s :B U5s5m:5^_US35^3OO ^S3OT_Ubc7=sOc__UB:73s=scB5 /5OcSrO3fO//S.7dc7ss7B5=UcBc5Us=33/O/U3B SUOs_3B 5_s7^ B1=Uc5^S:^q_37OUO_ /7/s3:O :7cc:^B 7=3=Bs /:;^S=O^OsE=7=s3_c_7  c7^= O=:37:cU7=5S==^3O:i//KO^_ =5:3U7cO:^/ O5S^Uo_SsO5^7B=5_c7:7B(5^3U: U7=_5/O:/YB/7:s OUB/7Os57 sB_SBw5/_H=O3SO/:BB:SS9 35OS/MB/^S 7==38:_UO=5S3Oc__:+//MOSSOB_/BO7Ss+^  O5ScH:UUO=S3?: U:;SS.s/_UBS76c/_^BB5i3/:OU3=!S/OO ^=57/sO_SBc5/c:^S 5=/3/:^UvP/SOO^/jBU7OsO_c /5OcS^sU/=:3S:8UO*OSSOH_UBO7Ssg_ BU5Sc0:/UB=S3tO/U^+:SpsU_OBO7}c/^OuS573/::US==S/O /S=5S sO_sBP5BcO^S i=/cy:SU=-/S_OS/YB/7Os:_b /5OcS^;U =O3S^://,OSSO=_/B:7SsD__ O5ScM:UUO=S3IO/");local n=0;o.QqXsnRFh(function()o.lKGOznHv()n=n+1 end)local function e(e,l)if l then return n end;n=e+n;end local l,n,c=u(0,u,e,f,o.KLdqdxjW);local function r()local n,l=o.KLdqdxjW(f,e(1,3),e(5,6)+2);e(2);return(l*256)+n;end;local _=true;local _=0 local function p()local t=n();local e=n();local d=1;local t=(l(e,1,20)*(2^32))+t;local n=l(e,21,31);local e=((-1)^l(e,32));if(n==0)then if(t==_)then return e*0;else n=1;d=0;end;elseif(n==2047)then return(t==0)and(e*(1/0))or(e*(0/0));end;return o.yQRRGgci(e,n-1023)*(d+(t/(2^52)));end;local z=n;local function k(n)local l;if(not n)then n=z();if(n==0)then return'';end;end;l=o.qlvgiwfF(f,e(1,3),e(5,6)+n-1);e(n)local e=""for n=(1+_),#l do e=e..o.qlvgiwfF(l,n,n)end return e;end;local _=#o.yBvYoorO(s('\49.\48'))~=1 local e=n;local function ne(...)return{...},o.rGCLFZkO('#',...)end local function g()local u={};local h={};local e={};local s={h,u,nil,e};local e=n()local f={}for t=1,e do local l=c();local n;if(l==0)then n=(c()~=#{});elseif(l==3)then local e=p();if _ and o.VaVPCseI(o.yBvYoorO(e),'.(\48+)$')then e=o.WiDPezsQ(e);end n=e;elseif(l==2)then n=k();end;f[t]=n;end;for e=1,n()do u[e-(#{1})]=g();end;for u=1,n()do local e=c();if(l(e,1,1)==0)then local o=l(e,2,3);local c=l(e,4,6);local e={r(),r(),nil,nil};if(o==0)then e[d]=r();e[a]=r();elseif(o==#{1})then e[d]=n();elseif(o==b[2])then e[d]=n()-(2^16)elseif(o==b[3])then e[d]=n()-(2^16)e[a]=r();end;if(l(c,1,1)==1)then e[t]=f[e[t]]end if(l(c,2,2)==1)then e[d]=f[e[d]]end if(l(c,3,3)==1)then e[a]=f[e[a]]end h[u]=e;end end;s[3]=c();return s;end;local function y(l,n,e)local t=n;local t=e;return s(o.VaVPCseI(o.VaVPCseI(({o.QqXsnRFh(l)})[2],n),e))end local function ee(z,e,c)local function y(...)local r,m,b,y,s,n,f,p,_,k,g,l;local e=0;while-1<e do if 2>=e then if e<=0 then r=u(6,16,1,63,z);m=u(6,23,2,19,z);else if e>=-3 then for l=17,63 do if 1~=e then n=-41;f=-1;break;end;b=u(6,25,3,70,z);s=ne y=0;break;end;else n=-41;f=-1;end end else if e>4 then if 5==e then l=u(7);else e=-2;end else if e~=4 then p={};_={...};else k=o.rGCLFZkO('#',...)-1;g={};end end end e=e+1;end;for e=0,k do if(e>=b)then p[e-b]=_[e+1];else l[e]=_[e+1];end;end;local e=k-b+1 local e;local o;local function u(...)while true do end end while true do if n<-40 then n=n+42 end e=r[n];o=e[j];if 12<=o then if 18<=o then if o<21 then if o>18 then if 15<=o then for r=10,65 do if o~=20 then c[e[d]]=l[e[t]];break;end;n=e[d];break;end;else c[e[d]]=l[e[t]];end else local n=e[t];local t=l[e[d]];l[n+1]=t;l[n]=t[e[a]];end else if o>=22 then if o~=20 then repeat if o>22 then l[e[t]]();break;end;local t=e[t];local n=l[e[d]];l[t+1]=n;l[t]=n[e[a]];until true;else local n=e[t];local t=l[e[d]];l[n+1]=t;l[n]=t[e[a]];end else l[e[t]]=c[e[d]];end end else if 15<=o then if o<=15 then l(e[t],e[d]);else if 14<o then for n=31,71 do if 16<o then c[e[d]]=l[e[t]];break;end;l[e[t]]=c[e[d]];break;end;else c[e[d]]=l[e[t]];end end else if 13<=o then if o==13 then local n=e[t]local t,e=s(l[n](h(l,n+1,e[d])))f=e+n-1 local e=0;for n=n,f do e=e+1;l[n]=t[e];end;else do return end;end else do return end;end end end else if 5>=o then if o>2 then if 4>o then l[e[t]]=(e[d]~=0);else if 4<o then local o,b,z,_,u;l[e[t]]=c[e[d]];n=n+1;e=r[n];o=e[t];b=l[e[d]];l[o+1]=b;l[o]=b[e[a]];n=n+1;e=r[n];l(e[t],e[d]);n=n+1;e=r[n];o=e[t]z,_=s(l[o](h(l,o+1,e[d])))f=_+o-1 u=0;for e=o,f do u=u+1;l[e]=z[u];end;n=n+1;e=r[n];o=e[t]l[o]=l[o](h(l,o+1,f))n=n+1;e=r[n];l[e[t]]();n=n+1;e=r[n];do return end;else if(l[e[t]]==e[a])then n=n+1;else n=e[d];end;end end else if 0>=o then local o,f,r,c,a;local n=0;while n>-1 do if n<3 then if n<=0 then o=e;else if-3<=n then repeat if 1~=n then r=d;break;end;f=t;until true;else f=t;end end else if n>4 then if n~=1 then repeat if n<6 then l(a,c);break;end;n=-2;until true;else n=-2;end else if 0~=n then repeat if n<4 then c=o[r];break;end;a=o[f];until true;else c=o[r];end end end n=n+1 end else if-1~=o then for f=25,52 do if o<2 then if(l[e[t]]==e[a])then n=n+1;else n=e[d];end;break;end;for o=0,3 do if 2<=o then if-2<o then for f=24,75 do if 2<o then if(l[e[t]]==e[a])then n=n+1;else n=e[d];end;break;end;l[e[t]]=c[e[d]];n=n+1;e=r[n];break;end;else l[e[t]]=c[e[d]];n=n+1;e=r[n];end else if o>=-2 then for f=35,78 do if o>0 then c[e[d]]=l[e[t]];n=n+1;e=r[n];break;end;l[e[t]]=(e[d]~=0);n=n+1;e=r[n];break;end;else l[e[t]]=(e[d]~=0);n=n+1;e=r[n];end end end break;end;else for o=0,3 do if 2<=o then if-2<o then for f=24,75 do if 2<o then if(l[e[t]]==e[a])then n=n+1;else n=e[d];end;break;end;l[e[t]]=c[e[d]];n=n+1;e=r[n];break;end;else l[e[t]]=c[e[d]];n=n+1;e=r[n];end else if o>=-2 then for f=35,78 do if o>0 then c[e[d]]=l[e[t]];n=n+1;e=r[n];break;end;l[e[t]]=(e[d]~=0);n=n+1;e=r[n];break;end;else l[e[t]]=(e[d]~=0);n=n+1;e=r[n];end end end end end end else if o>8 then if 10>o then l[e[t]]=(e[d]~=0);else if 8~=o then repeat if 10~=o then local e=e[t]l[e]=l[e](h(l,e+1,f))break;end;l[e[t]]();until true;else local e=e[t]l[e]=l[e](h(l,e+1,f))end end else if o>=7 then if 3<=o then for n=22,92 do if o~=8 then local e=e[t]l[e]=l[e](h(l,e+1,f))break;end;local n=e[t]local t,e=s(l[n](h(l,n+1,e[d])))f=e+n-1 local e=0;for n=n,f do e=e+1;l[n]=t[e];end;break;end;else local e=e[t]l[e]=l[e](h(l,e+1,f))end else n=e[d];end end end end n=1+n;end;end;return y end;local d=0xff;local a={};local r=(1);local t='';(function(n)local l=n local c=0x00 local e=0x00 l={(function(f)if c>0x23 then return f end c=c+1 e=(e+0x498-f)%0xf return(e%0x03==0x2 and(function(l)if not n[l]then e=e+0x01 n[l]=(0x67);t={t..'\58 a',t};a[r]=g();r=r+((not o.nSiMWupq)and 1 or 0);t[1]='\58'..t[1];d[2]=0xff;end return true end)'zjrZb'and l[0x2](0x258+f))or(e%0x03==0x1 and(function(l)if not n[l]then e=e+0x01 n[l]=(0x3f);end return true end)'pYUXz'and l[0x3](f+0x183))or(e%0x03==0x0 and(function(l)if not n[l]then e=e+0x01 n[l]=(0x34);t='\37';d={function()d()end};t=t..'\100\43';end return true end)'MarpZ'and l[0x1](f+0x2f0))or f end),(function(o)if c>0x24 then return o end c=c+1 e=(e+0xdd9-o)%0x12 return(e%0x03==0x0 and(function(l)if not n[l]then e=e+0x01 n[l]=(0xa9);d[2]=(d[2]*(y(function()a()end,h(t))-y(d[1],h(t))))+1;a[r]={};d=d[2];r=r+d;end return true end)'PpxkE'and l[0x3](0x241+o))or(e%0x03==0x1 and(function(l)if not n[l]then e=e+0x01 n[l]=(0x81);end return true end)'wJyLI'and l[0x2](o+0x2ab))or(e%0x03==0x2 and(function(l)if not n[l]then e=e+0x01 n[l]=(0xcb);end return true end)'_gWKy'and l[0x1](o+0x33a))or o end),(function(t)if c>0x25 then return t end c=c+1 e=(e+0x620-t)%0x13 return(e%0x03==0x0 and(function(l)if not n[l]then e=e+0x01 n[l]=(0xe1);end return true end)'JHDXu'and l[0x3](0x2a3+t))or(e%0x03==0x2 and(function(l)if not n[l]then e=e+0x01 n[l]=(0x38);end return true end)'XpriW'and l[0x2](t+0x35f))or(e%0x03==0x1 and(function(l)if not n[l]then e=e+0x01 n[l]=(0x9);a[r]=m();r=r+d;end return true end)'IUAjR'and l[0x1](t+0x331))or t end)}l[0x1](0x95a)end){};local e=ee(h(a));return e(...);end return y((function()local n={}local e=0x01;local l;if o.nSiMWupq then l=o.nSiMWupq(y)else l=''end if o.VaVPCseI(l,o.kaVSGPIz)then e=e+0;else e=e+1;end n[e]=0x02;n[n[e]+0x01]=0x03;return n;end)(),...)end)((function(l,e,n,t,d,o)local o;if l<=3 then if l>1 then if-2<l then for o=35,90 do if l~=3 then do return 16777216,65536,256 end;break;end;do return e(1),e(4,d,t,n,e),e(5,d,t,n)end;break;end;else do return 16777216,65536,256 end;end else if-1<=l then repeat if l>0 then do return function(l,e,n)if n then local e=(l/2^(e-1))%2^((n-1)-(e-1)+1);return e-e%1;else local e=2^(e-1);return(l%(e+e)>=e)and 1 or 0;end;end;end;break;end;do return e(1),e(4,d,t,n,e),e(5,d,t,n)end;until true;else do return e(1),e(4,d,t,n,e),e(5,d,t,n)end;end end else if 5>=l then if 5>l then local l=t;local o,r,c=d(2);do return function()local t,d,n,e=e(n,l(l,l),l(l,l)+3);l(4);return(e*o)+(n*r)+(d*c)+t;end;end;else local l=t;do return function()local e=e(n,l(l,l),l(l,l));l(1);return e;end;end;end else if l<7 then do return d[n]end;else if l>5 then repeat if 8~=l then do return setmetatable({},{['__\99\97\108\108']=function(e,t,l,d,n)if n then return e[n]elseif d then return e else e[t]=l end end})end break;end;do return n(l,nil,n);end until true;else do return n(l,nil,n);end end end end end end),...)
+-- create a ScreenGui object
+local screenGui = Instance.new("ScreenGui")
+screenGui.Parent = game.CoreGui
+-- create a TextLabel object
+local label = Instance.new("TextLabel")
+label.Text = "Rafanchik"
+label.Size = UDim2.new(0.1, 0, 0.1, 0) -- set the size to be 80% of the screen size
+label.Position = UDim2.new(0.34, 0, 0.93, 0) -- set the position to be 10% from the top and left
+label.TextColor3 = Color3.new(255,48,48)
+label.BackgroundTransparency = 1
+label.FontSize = Enum.FontSize.Size36 -- set the font size to 36
+label.TextWrapped = true -- allow the text to wrap if it's too long
+label.TextScaled = true -- scale the text to fit the label
+label.Parent = screenGui
+
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "Key", HidePremium = false, SaveConfig = false, ConfigFolder = "OrionTest"})
+
+_G.Key = "qPdLADnjfk"
+_G.KeyInput = "string"
+
+function MakeScriptHub()
+
+	game.StarterGui:SetCore(
+"SendNotification",
+{
+Title = "Made by TheMeely",
+Text = "Key check!"
+}
+)
+
+local Window = OrionLib:MakeWindow({Name = "Rafanchik Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local Tab = Window:MakeTab({
+	Name = "Misc",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddTextbox({
+	Name = "Speed",
+	Default = "",
+	TextDisappear = true,
+	Callback = function(Value)
+	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
+	end	  
+})
+
+Tab:AddTextbox({
+	Name = "JumpPower",
+	Default = "",
+	TextDisappear = true,
+	Callback = function(Value)
+	game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
+	end	  
+})
+
+Tab:AddTextbox({
+	Name = "Gravity",
+	Default = "192",
+	TextDisappear = true,
+	Callback = function(Value)
+	game.workspace.Gravity = Value
+	end	  
+})
+
+ Tab:AddButton({
+		Name = "Noclip",
+		Callback = function()
+		local Workspace = game:GetService("Workspace")
+local CoreGui = game:GetService("CoreGui")
+local Players = game:GetService("Players")
+local Noclip = Instance.new("ScreenGui")
+local BG = Instance.new("Frame")
+local Title = Instance.new("TextLabel")
+local Toggle = Instance.new("TextButton")
+local StatusPF = Instance.new("TextLabel")
+local Status = Instance.new("TextLabel")
+local Credit = Instance.new("TextLabel")
+local Plr = Players.LocalPlayer
+local Clipon = false
+ 
+Noclip.Name = "Noclip"
+Noclip.Parent = game.CoreGui
+ 
+BG.Name = "BG"
+BG.Parent = Noclip
+BG.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+BG.BorderColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+BG.BorderSizePixel = 2
+BG.Position = UDim2.new(0.149479166, 0, 0.82087779, 0)
+BG.Size = UDim2.new(0, 210, 0, 127)
+BG.Active = true
+BG.Draggable = true
+ 
+Title.Name = "Title"
+Title.Parent = BG
+Title.BackgroundColor3 = Color3.new(0.266667, 0.00392157, 0.627451)
+Title.BorderColor3 = Color3.new(0.180392, 0, 0.431373)
+Title.BorderSizePixel = 2
+Title.Size = UDim2.new(0, 210, 0, 33)
+Title.Font = Enum.Font.Highway
+Title.Text = "Noclip"
+Title.TextColor3 = Color3.new(1, 1, 1)
+Title.FontSize = Enum.FontSize.Size32
+Title.TextSize = 30
+Title.TextStrokeColor3 = Color3.new(0.180392, 0, 0.431373)
+Title.TextStrokeTransparency = 0
+ 
+Toggle.Parent = BG
+Toggle.BackgroundColor3 = Color3.new(0.266667, 0.00392157, 0.627451)
+Toggle.BorderColor3 = Color3.new(0.180392, 0, 0.431373)
+Toggle.BorderSizePixel = 2
+Toggle.Position = UDim2.new(0.152380958, 0, 0.374192119, 0)
+Toggle.Size = UDim2.new(0, 146, 0, 36)
+Toggle.Font = Enum.Font.Highway
+Toggle.FontSize = Enum.FontSize.Size28
+Toggle.Text = "Toggle"
+Toggle.TextColor3 = Color3.new(1, 1, 1)
+Toggle.TextSize = 25
+Toggle.TextStrokeColor3 = Color3.new(0.180392, 0, 0.431373)
+Toggle.TextStrokeTransparency = 0
+ 
+StatusPF.Name = "StatusPF"
+StatusPF.Parent = BG
+StatusPF.BackgroundColor3 = Color3.new(1, 1, 1)
+StatusPF.BackgroundTransparency = 1
+StatusPF.Position = UDim2.new(0.314285725, 0, 0.708661377, 0)
+StatusPF.Size = UDim2.new(0, 56, 0, 20)
+StatusPF.Font = Enum.Font.Highway
+StatusPF.FontSize = Enum.FontSize.Size24
+StatusPF.Text = "Status:"
+StatusPF.TextColor3 = Color3.new(1, 1, 1)
+StatusPF.TextSize = 20
+StatusPF.TextStrokeColor3 = Color3.new(0.333333, 0.333333, 0.333333)
+StatusPF.TextStrokeTransparency = 0
+StatusPF.TextWrapped = true
+ 
+Status.Name = "Status"
+Status.Parent = BG
+Status.BackgroundColor3 = Color3.new(1, 1, 1)
+Status.BackgroundTransparency = 1
+Status.Position = UDim2.new(0.580952346, 0, 0.708661377, 0)
+Status.Size = UDim2.new(0, 56, 0, 20)
+Status.Font = Enum.Font.Highway
+Status.FontSize = Enum.FontSize.Size14
+Status.Text = "off"
+Status.TextColor3 = Color3.new(0.666667, 0, 0)
+Status.TextScaled = true
+Status.TextSize = 14
+Status.TextStrokeColor3 = Color3.new(0.180392, 0, 0.431373)
+Status.TextWrapped = true
+Status.TextXAlignment = Enum.TextXAlignment.Left
+ 
+Credit.Name = "Credit"
+Credit.Parent = BG
+Credit.BackgroundColor3 = Color3.new(1, 1, 1)
+Credit.BackgroundTransparency = 1
+Credit.Position = UDim2.new(0.195238099, 0, 0.866141737, 0)
+Credit.Size = UDim2.new(0, 128, 0, 17)
+Credit.Font = Enum.Font.SourceSans
+Credit.FontSize = Enum.FontSize.Size18
+Credit.Text = "Created by Meetly"
+Credit.TextColor3 = Color3.new(1, 1, 1)
+Credit.TextSize = 16
+Credit.TextStrokeColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+Credit.TextStrokeTransparency = 0
+Credit.TextWrapped = true
+ 
+Toggle.MouseButton1Click:connect(function()
+    if Status.Text == "off" then
+        Clipon = true
+        Status.Text = "on"
+        Status.TextColor3 = Color3.new(0,185,0)
+        Stepped = game:GetService("RunService").Stepped:Connect(function()
+            if not Clipon == false then
+                for a, b in pairs(Workspace:GetChildren()) do
+                if b.Name == Plr.Name then
+                for i, v in pairs(Workspace[Plr.Name]:GetChildren()) do
+                if v:IsA("BasePart") then
+                v.CanCollide = false
+                end end end end
+            else
+                Stepped:Disconnect()
+            end
+        end)
+    elseif Status.Text == "on" then
+        Clipon = false
+        Status.Text = "off"
+        Status.TextColor3 = Color3.new(170,0,0)
+    end
+end)
+	end
+	})
+
+Tab:AddButton({
+		Name = "inf jump",
+		Callback = function()
+		_G.infinjump = true
+ InfiniteJumpEnabled = true
+game:GetService("UserInputService").JumpRequest:connect(function()
+	if InfiniteJumpEnabled then
+		game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+	end
+end)
+end
+})
+
+Tab:AddButton({
+	Name = "Tp Tool",
+	Callback = function(Value)
+	mouse = game.Players.LocalPlayer:GetMouse()
+tool = Instance.new("Tool")
+tool.RequiresHandle = false
+tool.Name = "Equip to Click TP"
+tool.Activated:connect(function()
+local pos = mouse.Hit+Vector3.new(0,2.5,0)
+pos = CFrame.new(pos.X,pos.Y,pos.Z)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos
+end)
+tool.Parent = game.Players.LocalPlayer.Backpack
+	end	  
+})
+
+local Tab = Window:MakeTab({
+	Name = "FE Script",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+		Name = "FE push",
+		Callback = function()
+		loadstring(game:HttpGet(('https://pastefy.ga/GvnHVjT5/raw'),true))()
+	end
+})
+
+Tab:AddButton({
+		Name = "FE big size",
+		Callback = function()
+		local LocalPlayer = game:GetService("Players").LocalPlayer
+local Character = LocalPlayer.Character
+local Humanoid = Character:FindFirstChildOfClass("Humanoid")
+
+function rm()
+	for i,v in pairs(Character:GetDescendants()) do
+		if v:IsA("BasePart") then
+			if v.Name == "Handle" or v.Name == "Head" then
+				if Character.Head:FindFirstChild("OriginalSize") then
+					Character.Head.OriginalSize:Destroy()
+				end
+			else
+				for i,cav in pairs(v:GetDescendants()) do
+					if cav:IsA("Attachment") then
+						if cav:FindFirstChild("OriginalPosition") then
+							cav.OriginalPosition:Destroy()  
+						end
+					end
+				end
+				v:FindFirstChild("OriginalSize"):Destroy()
+				if v:FindFirstChild("AvatarPartScaleType") then
+					v:FindFirstChild("AvatarPartScaleType"):Destroy()
+				end
+			end
+		end
+	end
+end
+
+rm()
+wait(0.5)
+Humanoid:FindFirstChild("BodyProportionScale"):Destroy()
+wait(1)
+
+rm()
+wait(0.5)
+Humanoid:FindFirstChild("BodyHeightScale"):Destroy()
+wait(1)
+
+rm()
+wait(0.5)
+Humanoid:FindFirstChild("BodyWidthScale"):Destroy()
+wait(1)
+
+rm()
+wait(0.5)
+Humanoid:FindFirstChild("BodyDepthScale"):Destroy()
+wait(1)
+
+rm()
+wait(0.5)
+Humanoid:FindFirstChild("HeadScale"):Destroy()
+wait(1)
+	end
+})
+
+Tab:AddButton({
+		Name = "FE Laser",
+		Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/K0t1n/Public/main/Laser%20Gun"))()
+	end
+})
+
+local Tab = Window:MakeTab({
+	Name = "Other",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+		Name = "infiniteyield",
+		Callback = function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))() --nice!--
+	end
+})
+
+Tab:AddButton({
+		Name = "GhostHub",
+		Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
+	end
+})
+
+Tab:AddButton({
+		Name = "Mobile Fly Script (New)",
+		Callback = function()
+		loadstring(game:HttpGet('https://pastebin.com/raw/YSL3xKYU'))()
+	end
+	})
+
+Tab:AddButton({
+		Name = "Fly V3 car script",
+		Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/MHE1cbWF"))()
+	end
+})
+
+  Tab:AddButton({
+		Name = "Teleport Gui",
+		Callback = function()
+		loadstring(game:HttpGet(("https://pastebin.com/raw/YNVbeqPy")))()
+	end
+})
+
+local Tab = Window:MakeTab({
+	Name = "Game Script",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+ Tab:AddButton({
+		Name = "Mobile Murder Mystery 2 script",
+		Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/vwSaraa/LunarHub/main/mm2"))()
+	end
+})
+
+ Tab:AddButton({
+		Name = "Doors",
+		Callback = function()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/MSDOORS/main/MSDOORS/Moonsec.lua"),true))()
+	end
+})
+
+  Tab:AddButton({
+		Name = "Natural Disaster Survival",
+		Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ObviouslyOrchi/Moonlight_Client.lua/main/Moonlight_Client.",true))()
+	end
+})
+
+Tab:AddButton({
+		Name = "Zombie Attack",
+		Callback = function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/zeuise0002/SSSWWW222/main/README.md'),true))()
+	end
+})
+
+  Tab:AddButton({
+		Name = "Blox Frut (key)",
+		Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Fiend1sh/FiendMain/main/MadoxHubKey", true))()
+	end
+})
+
+    Tab:AddButton({
+		Name = "Lucky Blocks",
+		Callback = function()
+		local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("LUCKY BLOCK BATTLEGROUND BY Rafanchik HUB", "BloodTheme")
+
+
+--MAIN
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("Main")
+
+
+MainSection:NewButton("LuckyBlock", "opens a normal lucky block", function()
+    game:GetService("ReplicatedStorage").SpawnLuckyBlock:FireServer()
+end)
+
+
+MainSection:NewButton("SuperBlock", "Opens a superblock", function()
+    game:GetService("ReplicatedStorage").SpawnSuperBlock:FireServer()
+end)
+
+
+MainSection:NewButton("DiamondBlock", "Opens a Diamond block", function()
+    game:GetService("ReplicatedStorage").SpawnDiamondBlock:FireServer()
+end)
+
+
+MainSection:NewButton("RainbowBlock", "Opens a Rainbow block", function()
+    game:GetService("ReplicatedStorage").SpawnRainbowBlock:FireServer()
+end)
+
+
+
+MainSection:NewButton("GalaxyBlock", "Opens a GalaxyBlock", function()
+
+    game:GetService("ReplicatedStorage").SpawnGalaxyBlock:FireServer()
+end)
+
+
+
+
+
+local Credits = Window:NewTab("Credits")
+local CreditsSection = Credits:NewSection("Credits")
+
+
+CreditsSection:NewLabel("Made by TheMeetly#0885/ByteLuaCode ")
+CreditsSection:NewLabel("Sponsor: Rafanchik")
+	end
+})
+
+
+Tab:AddButton({
+		Name = "Worm 2048",
+		Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe/ToraIsMe/main/0worm", true))()
+	end
+})
+
+Tab:AddButton({
+		Name = "Arsenal (key)",
+		Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Maikderninja/Maikderninja/main/PWNERHUB.lua"))();
+	end
+})
+
+Tab:AddButton({
+		Name = "Bee Swarm",
+		Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Historia00012/HISTORIAHUB/main/BSS%20FREE"))()
+	end
+})
+
+
+local Tab = Window:MakeTab({
+	Name = "Visual",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+		Name = "Tracer",
+		Callback = function()
+		local lplr = game.Players.LocalPlayer
+local camera = game:GetService("Workspace").CurrentCamera
+local CurrentCamera = workspace.CurrentCamera
+local worldToViewportPoint = CurrentCamera.worldToViewportPoint
+
+_G.TeamCheck = false -- Use True or False to toggle TeamCheck
+
+for i,v in pairs(game.Players:GetChildren()) do
+    local Tracer = Drawing.new("Line")
+    Tracer.Visible = false
+    Tracer.Color = Color3.new(255, 0, 0)
+    Tracer.Thickness = 1
+    Tracer.Transparency = 1
+
+    function lineesp()
+        game:GetService("RunService").RenderStepped:Connect(function()
+            if v.Character ~= nil and v.Character:FindFirstChild("Humanoid") ~= nil and v.Character:FindFirstChild("HumanoidRootPart") ~= nil and v ~= lplr and v.Character.Humanoid.Health > 0 then
+                local Vector, OnScreen = camera:worldToViewportPoint(v.Character.HumanoidRootPart.Position)
+
+                if OnScreen then
+                    Tracer.From = Vector2.new(camera.ViewportSize.X / 2, camera.ViewportSize.Y / 1)
+                    Tracer.To = Vector2.new(Vector.X, Vector.Y)
+
+                    if _G.TeamCheck and v.TeamColor == lplr.TeamColor then
+                        --//Teammates
+                        Tracer.Visible = false
+                    else
+                        --//Enemies
+                        Tracer.Visible = true
+                    end
+                else
+                    Tracer.Visible = false
+                end
+            else
+                Tracer.Visible = false
+            end
+        end)
+    end
+    coroutine.wrap(lineesp)()
+end
+
+game.Players.PlayerAdded:Connect(function(v)
+    local Tracer = Drawing.new("Line")
+    Tracer.Visible = false
+    Tracer.Color = Color3.new(1,1,1)
+    Tracer.Thickness = 1
+    Tracer.Transparency = 1
+
+    function lineesp()
+        game:GetService("RunService").RenderStepped:Connect(function()
+            if v.Character ~= nil and v.Character:FindFirstChild("Humanoid") ~= nil and v.Character:FindFirstChild("HumanoidRootPart") ~= nil and v ~= lplr and v.Character.Humanoid.Health > 0 then
+                local Vector, OnScreen = camera:worldToViewportPoint(v.Character.HumanoidRootPart.Position)
+
+                if OnScreen then
+                    Tracer.From = Vector2.new(camera.ViewportSize.X / 2, camera.ViewportSize.Y / 1)
+                    Tracer.To = Vector2.new(Vector.X, Vector.Y)
+
+                    if _G.TeamCheck and v.TeamColor == lplr.TeamColor then
+                        --//Teammates
+                        Tracer.Visible = false
+                    else
+                        --//Enemies
+                        Tracer.Visible = true
+                    end
+                else
+                    Tracer.Visible = false
+                end
+            else
+                Tracer.Visible = false
+            end
+        end)
+    end
+    coroutine.wrap(lineesp)()
+end)
+end
+})
+
+Tab:AddButton({
+		Name = "Neon Esp",
+		Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/UESP"))()
+	end
+})
+
+Tab:AddButton({
+		Name = "Custom Color Esp",
+		Callback = function()
+		local ESPGUI = Instance.new("ScreenGui")
+local MainFrame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+local TItle = Instance.new("TextLabel")
+local CreateESP = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local RemoveESP = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local CustomizeESP = Instance.new("Frame")
+local UICorner_4 = Instance.new("UICorner")
+local UIGradient_2 = Instance.new("UIGradient")
+local TItle_2 = Instance.new("TextLabel")
+local FillColor = Instance.new("TextLabel")
+local OutlineColor = Instance.new("TextLabel")
+local FILL_R = Instance.new("TextBox")
+local UICorner_5 = Instance.new("UICorner")
+local FILL_G = Instance.new("TextBox")
+local UICorner_6 = Instance.new("UICorner")
+local FILL_B = Instance.new("TextBox")
+local UICorner_7 = Instance.new("UICorner")
+local OUT_B = Instance.new("TextBox")
+local UICorner_8 = Instance.new("UICorner")
+local OUT_R = Instance.new("TextBox")
+local UICorner_9 = Instance.new("UICorner")
+local OUT_G = Instance.new("TextBox")
+local UICorner_10 = Instance.new("UICorner")
+local FILL_PREVIEW = Instance.new("Frame")
+local UICorner_11 = Instance.new("UICorner")
+local out_PREVIEW = Instance.new("Frame")
+local UICorner_12 = Instance.new("UICorner")
+local RunService = game:GetService("RunService")
+--Properties:
+ 
+ESPGUI.Name = "ESPGUI"
+ESPGUI.Parent = game.CoreGui
+ESPGUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ESPGUI.ResetOnSpawn = false
+ESPGUI.IgnoreGuiInset = true
+ 
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = ESPGUI
+MainFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MainFrame.Position = UDim2.new(0.365747452, 0, 0.03125, 0)
+MainFrame.Size = UDim2.new(0, 187, 0, 103)
+MainFrame.Active = true
+MainFrame.Draggable = true
+ 
+UICorner.Parent = MainFrame
+ 
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(51, 143, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(14, 90, 255))}
+UIGradient.Parent = MainFrame
+ 
+TItle.Name = "TItle"
+TItle.Parent = MainFrame
+TItle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TItle.BackgroundTransparency = 1.000
+TItle.Size = UDim2.new(0, 187, 0, 32)
+TItle.Font = Enum.Font.GothamBlack
+TItle.Text = "ESP GUI"
+TItle.TextColor3 = Color3.fromRGB(255, 255, 255)
+TItle.TextSize = 14.000
+ 
+CreateESP.Name = "CreateESP"
+CreateESP.Parent = MainFrame
+CreateESP.BackgroundColor3 = Color3.fromRGB(90, 255, 19)
+CreateESP.Position = UDim2.new(0.155080214, 0, 0.242718458, 0)
+CreateESP.Size = UDim2.new(0, 128, 0, 23)
+CreateESP.Font = Enum.Font.GothamBlack
+CreateESP.Text = "Create ESP"
+CreateESP.TextColor3 = Color3.fromRGB(255, 255, 255)
+CreateESP.TextSize = 14.000
+ 
+UICorner_2.Parent = CreateESP
+ 
+RemoveESP.Name = "RemoveESP"
+RemoveESP.Parent = MainFrame
+RemoveESP.BackgroundColor3 = Color3.fromRGB(255, 92, 11)
+RemoveESP.Position = UDim2.new(0.155080214, 0, 0.524271846, 0)
+RemoveESP.Size = UDim2.new(0, 128, 0, 23)
+RemoveESP.Font = Enum.Font.GothamBlack
+RemoveESP.Text = "Remove ESP"
+RemoveESP.TextColor3 = Color3.fromRGB(255, 255, 255)
+RemoveESP.TextSize = 14.000
+ 
+UICorner_3.Parent = RemoveESP
+ 
+CustomizeESP.Name = "CustomizeESP"
+CustomizeESP.Parent = ESPGUI
+CustomizeESP.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CustomizeESP.Position = UDim2.new(0.517416537, 0, 0.03125, 0)
+CustomizeESP.Size = UDim2.new(0, 426, 0, 84)
+CustomizeESP.Active = true
+CustomizeESP.Draggable = true
+ 
+UICorner_4.Parent = CustomizeESP
+ 
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(51, 143, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(14, 90, 255))}
+UIGradient_2.Parent = CustomizeESP
+ 
+TItle_2.Name = "TItle"
+TItle_2.Parent = CustomizeESP
+TItle_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TItle_2.BackgroundTransparency = 1.000
+TItle_2.Size = UDim2.new(0, 321, 0, 32)
+TItle_2.Font = Enum.Font.GothamBlack
+TItle_2.Text = "Customize ESP"
+TItle_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TItle_2.TextSize = 14.000
+ 
+FillColor.Name = "FillColor"
+FillColor.Parent = CustomizeESP
+FillColor.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FillColor.BackgroundTransparency = 1.000
+FillColor.Position = UDim2.new(0, 0, 0.195121944, 0)
+FillColor.Size = UDim2.new(0, 81, 0, 32)
+FillColor.Font = Enum.Font.GothamBlack
+FillColor.Text = "Fill Color"
+FillColor.TextColor3 = Color3.fromRGB(255, 255, 255)
+FillColor.TextSize = 14.000
+ 
+OutlineColor.Name = "OutlineColor"
+OutlineColor.Parent = CustomizeESP
+OutlineColor.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OutlineColor.BackgroundTransparency = 1.000
+OutlineColor.Position = UDim2.new(0.0267573483, 0, 0.589157462, 0)
+OutlineColor.Size = UDim2.new(0, 81, 0, 32)
+OutlineColor.Font = Enum.Font.GothamBlack
+OutlineColor.Text = "Outline Color"
+OutlineColor.TextColor3 = Color3.fromRGB(255, 255, 255)
+OutlineColor.TextSize = 14.000
+ 
+FILL_R.Name = "FILL_R"
+FILL_R.Parent = CustomizeESP
+FILL_R.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+FILL_R.Position = UDim2.new(0.252336442, 0, 0.333333343, 0)
+FILL_R.Size = UDim2.new(0, 79, 0, 16)
+FILL_R.Font = Enum.Font.GothamBlack
+FILL_R.PlaceholderText = "R"
+FILL_R.Text = ""
+FILL_R.TextColor3 = Color3.fromRGB(255, 255, 255)
+FILL_R.TextSize = 14.000
+ 
+UICorner_5.Parent = FILL_R
+ 
+FILL_G.Name = "FILL_G"
+FILL_G.Parent = CustomizeESP
+FILL_G.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+FILL_G.Position = UDim2.new(0.467428356, 0, 0.333333343, 0)
+FILL_G.Size = UDim2.new(0, 79, 0, 16)
+FILL_G.Font = Enum.Font.GothamBlack
+FILL_G.PlaceholderText = "G"
+FILL_G.Text = ""
+FILL_G.TextColor3 = Color3.fromRGB(255, 255, 255)
+FILL_G.TextSize = 14.000
+ 
+UICorner_6.Parent = FILL_G
+ 
+FILL_B.Name = "FILL_B"
+FILL_B.Parent = CustomizeESP
+FILL_B.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+FILL_B.Position = UDim2.new(0.705080032, 0, 0.333333343, 0)
+FILL_B.Size = UDim2.new(0, 79, 0, 16)
+FILL_B.Font = Enum.Font.GothamBlack
+FILL_B.PlaceholderText = "B"
+FILL_B.Text = ""
+FILL_B.TextColor3 = Color3.fromRGB(255, 255, 255)
+FILL_B.TextSize = 14.000
+ 
+UICorner_7.Parent = FILL_B
+ 
+OUT_B.Name = "OUT_B"
+OUT_B.Parent = CustomizeESP
+OUT_B.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OUT_B.Position = UDim2.new(0.705080032, 0, 0.678571463, 0)
+OUT_B.Size = UDim2.new(0, 79, 0, 16)
+OUT_B.Font = Enum.Font.GothamBlack
+OUT_B.PlaceholderText = "B"
+OUT_B.Text = ""
+OUT_B.TextColor3 = Color3.fromRGB(255, 255, 255)
+OUT_B.TextSize = 14.000
+ 
+UICorner_8.Parent = OUT_B
+ 
+OUT_R.Name = "OUT_R"
+OUT_R.Parent = CustomizeESP
+OUT_R.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OUT_R.Position = UDim2.new(0.252336442, 0, 0.678571463, 0)
+OUT_R.Size = UDim2.new(0, 79, 0, 16)
+OUT_R.Font = Enum.Font.GothamBlack
+OUT_R.PlaceholderText = "R"
+OUT_R.Text = ""
+OUT_R.TextColor3 = Color3.fromRGB(255, 255, 255)
+OUT_R.TextSize = 14.000
+ 
+UICorner_9.Parent = OUT_R
+ 
+OUT_G.Name = "OUT_G"
+OUT_G.Parent = CustomizeESP
+OUT_G.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OUT_G.Position = UDim2.new(0.467428356, 0, 0.678571463, 0)
+OUT_G.Size = UDim2.new(0, 79, 0, 16)
+OUT_G.Font = Enum.Font.GothamBlack
+OUT_G.PlaceholderText = "G"
+OUT_G.Text = ""
+OUT_G.TextColor3 = Color3.fromRGB(255, 255, 255)
+OUT_G.TextSize = 14.000
+ 
+UICorner_10.Parent = OUT_G
+ 
+FILL_PREVIEW.Name = "FILL_PREVIEW"
+FILL_PREVIEW.Parent = CustomizeESP
+FILL_PREVIEW.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FILL_PREVIEW.Position = UDim2.new(0.917840362, 0, 0.261904776, 0)
+FILL_PREVIEW.Size = UDim2.new(0, 27, 0, 27)
+ 
+UICorner_11.Parent = FILL_PREVIEW
+ 
+out_PREVIEW.Name = "out_PREVIEW"
+out_PREVIEW.Parent = CustomizeESP
+out_PREVIEW.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+out_PREVIEW.Position = UDim2.new(0.917840362, 0, 0.642857134, 0)
+out_PREVIEW.Size = UDim2.new(0, 27, 0, 25)
+ 
+UICorner_12.Parent = out_PREVIEW
+ 
+-- Scripts:
+ 
+local function CSGPST_fake_script() -- CreateESP.LocalScript 
+    local script = Instance.new('LocalScript', CreateESP)
+ 
+    script.Parent.MouseButton1Click:Connect(function()
+        local players = game.Players:GetPlayers()
+        for _, v in pairs(players) do
+            local FILL_R = tonumber(script.Parent.Parent.Parent.CustomizeESP.FILL_R.Text)
+            local FILL_G = tonumber(script.Parent.Parent.Parent.CustomizeESP.FILL_G.Text)
+            local FILL_B = tonumber(script.Parent.Parent.Parent.CustomizeESP.FILL_B.Text)
+            local OUT_R = tonumber(script.Parent.Parent.Parent.CustomizeESP.OUT_R.Text)
+            local OUT_G = tonumber(script.Parent.Parent.Parent.CustomizeESP.OUT_G.Text)
+            local OUT_B = tonumber(script.Parent.Parent.Parent.CustomizeESP.OUT_B.Text) 
+            local esp = Instance.new("Highlight")
+            esp.Name = v.Name
+            esp.FillTransparency = 0.3
+            esp.FillColor = Color3.fromRGB(FILL_R, FILL_G, FILL_B)
+            esp.OutlineColor = Color3.fromRGB(OUT_R, OUT_G, OUT_B)
+            esp.OutlineTransparency = 0
+            esp.Parent = v.Character
+        end
+    end)
+end
+coroutine.wrap(CSGPST_fake_script)()
+local function BELCX_fake_script() -- RemoveESP.LocalScript 
+    local script = Instance.new('LocalScript', RemoveESP)
+ 
+    script.Parent.MouseButton1Click:Connect(function()
+        local players = game.Players:GetPlayers()
+        for _, v in pairs(players) do
+            local esp = v.Character:FindFirstChild(v.Name)
+            if esp then
+                esp:Destroy()
+            else
+                warn("No ESP Found - Couldn't find Any ESP In the Character!")
+            end
+        end
+    end)
+end
+coroutine.wrap(BELCX_fake_script)()
+local function PBDY_fake_script() -- FILL_PREVIEW.LocalScript 
+    local script = Instance.new('LocalScript', FILL_PREVIEW)
+ 
+    while wait() do
+        local FILL_R = tonumber(script.Parent.Parent.FILL_R.Text)
+        local FILL_G = tonumber(script.Parent.Parent.FILL_G.Text)
+        local FILL_B = tonumber(script.Parent.Parent.FILL_B.Text)
+        local OUT_R = tonumber(script.Parent.Parent.OUT_R.Text)
+        local OUT_G = tonumber(script.Parent.Parent.OUT_G.Text)
+        local OUT_B = tonumber(script.Parent.Parent.OUT_B.Text) 
+ 
+        script.Parent.BackgroundColor3 = Color3.fromRGB(FILL_R, FILL_G, FILL_B)
+ 
+    end
+end
+coroutine.wrap(PBDY_fake_script)()
+local function JPUFZ_fake_script() -- out_PREVIEW.LocalScript 
+    local script = Instance.new('LocalScript', out_PREVIEW)
+ 
+    while wait() do
+        local FILL_R = tonumber(script.Parent.Parent.FILL_R.Text)
+        local FILL_G = tonumber(script.Parent.Parent.FILL_G.Text)
+        local FILL_B = tonumber(script.Parent.Parent.FILL_B.Text)
+        local OUT_R = tonumber(script.Parent.Parent.OUT_R.Text)
+        local OUT_G = tonumber(script.Parent.Parent.OUT_G.Text)
+        local OUT_B = tonumber(script.Parent.Parent.OUT_B.Text) 
+ 
+        script.Parent.BackgroundColor3 = Color3.fromRGB(OUT_R, OUT_G, OUT_B)
+ 
+    end
+end
+coroutine.wrap(JPUFZ_fake_script)()
+	end
+})
+
+local Tab = Window:MakeTab({
+	Name = "Info",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "OWNER: Rafanchik"
+})
+
+local Section = Tab:AddSection({
+	Name = "CODER: TheMeetly#0885/ByteluaCode"
+})
+
+local Section = Tab:AddSection({
+	Name = "BETA TEST: Rafanchik, DAYNTI, TheMeetly/ByteluaCode"
+})
+
+Tab:AddButton({
+		Name = "Discord copy link",
+		Callback = function()
+		setclipboard("https://discord.gg/Hg8BJSMjEZ")
+	end
+})
+
+Tab:AddButton({
+		Name = "Telegram script copy link",
+		Callback = function()
+		setclipboard("https://t.me/Rafanchik_Script")
+	end
+})
+
+Tab:AddButton({
+		Name = "Telegram script info copy link",
+		Callback = function()
+		setclipboard("https://t.me/Rafanchik")
+	end
+})
+
+Tab:AddButton({
+		Name = "Go To Discord",
+		Callback = function()
+		local req = (type(syn) == "table" and syn.request) or (type(http) == "table" and http.request) or (type(fluxus) == "table" and fluxus.request) or http_request or request 
+
+if req~=nil then
+pcall(function()
+req({
+   Url = "http://127.0.0.1:6463/rpc?v=1",
+   Method = "POST",
+   Headers = {
+       ["Content-Type"] = "application/json",
+       ["Origin"] = "https://discord.com"
+   },
+   Body = game:GetService("HttpService"):JSONEncode({
+       cmd = "INVITE_BROWSER",
+       args = {
+           code = "C3gZMs8Prf" -- Meetly discord server ( new project i'm working on )
+       },
+       nonce = game:GetService("HttpService"):GenerateGUID(false)
+   }),
+})
+end)
+end
+	end
+})
+
+local Tab = Window:MakeTab({
+	Name = "Settings",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+		Name = "RTX GUI",
+		Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/RTX%20Gui%20Hub%20Obfuscator'))()
+	end
+})
+
+
+Tab:AddButton({
+		Name = "Mobile keyboard",
+		Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+	end
+})
+
+Tab:AddButton({
+		Name = "Clear WaterMark",
+		Callback = function()
+		game:GetService("CoreGui").ScreenGui.TextLabel:Destroy()
+	end
+})
+
+Tab:AddButton({
+		Name = "Rejoin",
+		Callback = function()
+		local ts = game:GetService("TeleportService")
+
+
+
+local p = game:GetService("Players").LocalPlayer
+
+
+
+
+
+
+
+ts:TeleportToPlaceInstance(game.PlaceId, game.JobId, p)
+end
+
+})
+
+ -- key system
+	
+	game.StarterGui:SetCore(
+"SendNotification",
+{
+Title = "Good Game!",
+Text = "(Key check!)"
+}
+)
+
+end
+
+local Tab = Window:MakeTab({
+	Name = "Key",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddTextbox({
+	Name = "Enter Key",
+	Default = "",
+	TextDisappear = true,
+	Callback = function(Value)
+		_G.KeyInput = Value
+	end	  
+})
+
+Tab:AddButton({
+		Name = "Get key (copy link)",
+		Callback = function()
+		setclipboard("https://rekonise.com/key_for_rafanchik_hub-l5oex")
+	end
+})
+
+    Tab:AddButton({
+		Name = "Check key",
+		Callback = function()
+		if _G.KeyInput == _G.Key then
+		MakeScriptHub()
+	end
+	end
+	})
