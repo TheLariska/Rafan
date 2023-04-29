@@ -6,7 +6,7 @@ local label = Instance.new("TextLabel")
 label.Text = "Rafanchik"
 label.Size = UDim2.new(0.1, 0, 0.1, 0) -- set the size to be 80% of the screen size
 label.Position = UDim2.new(0.34, 0, 0.93, 0) -- set the position to be 10% from the top and left
-label.TextColor3 = Color3.new(238,0,238)
+label.TextColor3 = Color3.new(255,48,48)
 label.BackgroundTransparency = 1
 label.FontSize = Enum.FontSize.Size36 -- set the font size to 36
 label.TextWrapped = true -- allow the text to wrap if it's too long
@@ -53,6 +53,15 @@ Tab:AddTextbox({
 	TextDisappear = true,
 	Callback = function(Value)
 	game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
+	end	  
+})
+
+Tab:AddTextbox({
+	Name = "Gravity",
+	Default = "192",
+	TextDisappear = true,
+	Callback = function(Value)
+	game.workspace.Gravity = Value
 	end	  
 })
 
@@ -198,6 +207,21 @@ end)
 end
 })
 
+Tab:AddButton({
+	Name = "Tp Tool",
+	Callback = function(Value)
+	mouse = game.Players.LocalPlayer:GetMouse()
+tool = Instance.new("Tool")
+tool.RequiresHandle = false
+tool.Name = "Equip to Click TP"
+tool.Activated:connect(function()
+local pos = mouse.Hit+Vector3.new(0,2.5,0)
+pos = CFrame.new(pos.X,pos.Y,pos.Z)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos
+end)
+tool.Parent = game.Players.LocalPlayer.Backpack
+	end	  
+})
 
 local Tab = Window:MakeTab({
 	Name = "FE Script",
@@ -206,16 +230,94 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddButton({
-		Name = "GhostHub",
+		Name = "FE push",
 		Callback = function()
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub%27'))()
+		loadstring(game:HttpGet(('https://pastefy.ga/GvnHVjT5/raw'),true))()
+	end
+})
+
+Tab:AddButton({
+		Name = "FE big size",
+		Callback = function()
+		local LocalPlayer = game:GetService("Players").LocalPlayer
+local Character = LocalPlayer.Character
+local Humanoid = Character:FindFirstChildOfClass("Humanoid")
+
+function rm()
+	for i,v in pairs(Character:GetDescendants()) do
+		if v:IsA("BasePart") then
+			if v.Name == "Handle" or v.Name == "Head" then
+				if Character.Head:FindFirstChild("OriginalSize") then
+					Character.Head.OriginalSize:Destroy()
+				end
+			else
+				for i,cav in pairs(v:GetDescendants()) do
+					if cav:IsA("Attachment") then
+						if cav:FindFirstChild("OriginalPosition") then
+							cav.OriginalPosition:Destroy()  
+						end
+					end
+				end
+				v:FindFirstChild("OriginalSize"):Destroy()
+				if v:FindFirstChild("AvatarPartScaleType") then
+					v:FindFirstChild("AvatarPartScaleType"):Destroy()
+				end
+			end
+		end
+	end
 end
+
+rm()
+wait(0.5)
+Humanoid:FindFirstChild("BodyProportionScale"):Destroy()
+wait(1)
+
+rm()
+wait(0.5)
+Humanoid:FindFirstChild("BodyHeightScale"):Destroy()
+wait(1)
+
+rm()
+wait(0.5)
+Humanoid:FindFirstChild("BodyWidthScale"):Destroy()
+wait(1)
+
+rm()
+wait(0.5)
+Humanoid:FindFirstChild("BodyDepthScale"):Destroy()
+wait(1)
+
+rm()
+wait(0.5)
+Humanoid:FindFirstChild("HeadScale"):Destroy()
+wait(1)
+	end
+})
+
+Tab:AddButton({
+		Name = "FE Laser",
+		Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/K0t1n/Public/main/Laser%20Gun"))()
+	end
+})
+
+local Tab = Window:MakeTab({
+	Name = "Other",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
 })
 
 Tab:AddButton({
 		Name = "infiniteyield",
 		Callback = function()
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))() --nice!--
+	end
+})
+
+Tab:AddButton({
+		Name = "GhostHub",
+		Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
 	end
 })
 
@@ -233,20 +335,12 @@ Tab:AddButton({
 	end
 })
 
-Tab:AddButton({
-		Name = "Player Size R15",
-		Callback = function()
-		loadstring(game:HttpGet("https://pastebin.com/raw/gDmAuwhC%22, true"))()
-	end
-})
-
   Tab:AddButton({
 		Name = "Teleport Gui",
 		Callback = function()
 		loadstring(game:HttpGet(("https://pastebin.com/raw/YNVbeqPy")))()
 	end
 })
-
 
 local Tab = Window:MakeTab({
 	Name = "Game Script",
@@ -269,9 +363,89 @@ local Tab = Window:MakeTab({
 })
 
   Tab:AddButton({
-		Name = "Blox Frut",
+		Name = "Natural Disaster Survival",
+		Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ObviouslyOrchi/Moonlight_Client.lua/main/Moonlight_Client.",true))()
+	end
+})
+
+Tab:AddButton({
+		Name = "Zombie Attack",
+		Callback = function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/zeuise0002/SSSWWW222/main/README.md'),true))()
+	end
+})
+
+  Tab:AddButton({
+		Name = "Blox Frut (key)",
 		Callback = function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Fiend1sh/FiendMain/main/MadoxHubKey", true))()
+	end
+})
+
+    Tab:AddButton({
+		Name = "Lucky Blocks",
+		Callback = function()
+		local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("LUCKY BLOCK BATTLEGROUND BY Rafanchik HUB", "BloodTheme")
+
+
+--MAIN
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("Main")
+
+
+MainSection:NewButton("LuckyBlock", "opens a normal lucky block", function()
+    game:GetService("ReplicatedStorage").SpawnLuckyBlock:FireServer()
+end)
+
+
+MainSection:NewButton("SuperBlock", "Opens a superblock", function()
+    game:GetService("ReplicatedStorage").SpawnSuperBlock:FireServer()
+end)
+
+
+MainSection:NewButton("DiamondBlock", "Opens a Diamond block", function()
+    game:GetService("ReplicatedStorage").SpawnDiamondBlock:FireServer()
+end)
+
+
+MainSection:NewButton("RainbowBlock", "Opens a Rainbow block", function()
+    game:GetService("ReplicatedStorage").SpawnRainbowBlock:FireServer()
+end)
+
+
+
+MainSection:NewButton("GalaxyBlock", "Opens a GalaxyBlock", function()
+
+    game:GetService("ReplicatedStorage").SpawnGalaxyBlock:FireServer()
+end)
+
+
+
+
+
+local Credits = Window:NewTab("Credits")
+local CreditsSection = Credits:NewSection("Credits")
+
+
+CreditsSection:NewLabel("Made by TheMeetly#0885/ByteLuaCode ")
+CreditsSection:NewLabel("Sponsor: Rafanchik")
+	end
+})
+
+
+Tab:AddButton({
+		Name = "Worm 2048",
+		Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe/ToraIsMe/main/0worm", true))()
+	end
+})
+
+Tab:AddButton({
+		Name = "Arsenal (key)",
+		Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Maikderninja/Maikderninja/main/PWNERHUB.lua"))();
 	end
 })
 
@@ -754,9 +928,24 @@ local Tab = Window:MakeTab({
 })
 
 Tab:AddButton({
+		Name = "RTX GUI",
+		Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/RTX%20Gui%20Hub%20Obfuscator'))()
+	end
+})
+
+
+Tab:AddButton({
 		Name = "Mobile keyboard",
 		Callback = function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+	end
+})
+
+Tab:AddButton({
+		Name = "Clear WaterMark",
+		Callback = function()
+		game:GetService("CoreGui").ScreenGui.TextLabel:Destroy()
 	end
 })
 
